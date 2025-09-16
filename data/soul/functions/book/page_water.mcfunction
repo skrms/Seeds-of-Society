@@ -1,0 +1,1 @@
+tellraw @s {"text":"Water: Steep patience; distill remedy.","color":"aqua"}

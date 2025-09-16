@@ -1,0 +1,1 @@
+tellraw @s {"text":"Insights: Power, Mystic, Void.","color":"light_purple"}

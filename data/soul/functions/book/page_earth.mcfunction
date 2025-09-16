@@ -1,0 +1,1 @@
+tellraw @s {"text":"Earth: Shape the patient bones of the world.","color":"gold"}
