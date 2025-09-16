@@ -1,1 +1,0 @@
-tellraw @s {"text":"Fire: Take heat into your hands without burning.","color":"red"}

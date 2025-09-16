@@ -1,0 +1,12 @@
+{ "values": [
+  "soul:book/wax_seal_tick",
+  "soul:book/arcane_engraving_tick",
+  "soul:elements/fire_tick",
+  "soul:elements/power_tick",
+  "soul:elements/water_tick",
+  "soul:elements/earth_tick",
+  "soul:elements/air_tick",
+  "soul:elements/void_tick",
+  "soul:elements/mystic_tick",
+  "soul:elements/creation_tick"
+] }

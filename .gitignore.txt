@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+*.iml
+
+# Build artifacts (if you zip builds)
+build/
+dist/
+*.zip
+
+# Logs
+*.log
