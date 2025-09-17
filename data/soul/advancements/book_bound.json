@@ -1,0 +1,15 @@
+{
+  "parent": "soul:root",
+  "display": {
+    "title": "Bound to the Book",
+    "description": "Bind the Book of Becoming.",
+    "icon": {"item": "minecraft:enchanted_book"},
+    "frame": "goal", "show_toast": true, "announce_to_chat": true
+  },
+  "criteria": {
+    "bound": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "function": "soul:book/save_state" }
+}

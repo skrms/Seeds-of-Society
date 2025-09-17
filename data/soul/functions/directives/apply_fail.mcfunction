@@ -1,1 +1,0 @@
-function codex:directives/fail

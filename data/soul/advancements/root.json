@@ -1,0 +1,10 @@
+{
+  "display": {
+    "title": "Soul of Society",
+    "description": "The Book turns to meet you.",
+    "icon": {"item": "minecraft:book"},
+    "background": "minecraft:textures/block/purple_concrete.png",
+    "show_toast": true, "announce_to_chat": false, "frame": "task"
+  },
+  "criteria": { "tick": { "trigger": "minecraft:tick" } }
+}

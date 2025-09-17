@@ -1,1 +1,5 @@
-{ "values": ["soul:tick", "soul:tags/functions/ritual_tick"] }
+{ 
+    "values": [
+        "soul:tick", "soul:tags/functions/ritual_tick"
+    ] 
+}
