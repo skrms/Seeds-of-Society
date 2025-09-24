@@ -16,4 +16,4 @@ scoreboard objectives add soul.keepinv_timer dummy
 scoreboard objectives remove directives
 scoreboard objectives remove essence
 
-tellraw @a {"text":"[Soul] Setup complete.","color":"aqua"}
+tellraw @a {"text":"[Soul] Active.","color":"aqua"}
