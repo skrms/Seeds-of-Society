@@ -1,6 +1,11 @@
-# Setup scoreboards for directives & recursion
+# Setup scoreboards for directives
 scoreboard objectives add directives dummy
+
+# Setup scoreboards for recursion
 scoreboard objectives add recursionDeaths deathCount
+scoreboard objectives add lastDeathCount dummy
+
+#
 scoreboard objectives add soul.time dummy
 scoreboard objectives add book.bond dummy
 scoreboard objectives add book.wax_cd dummy
@@ -16,7 +21,7 @@ scoreboard objectives add elem.mystic dummy
 scoreboard objectives add elem.creation dummy
 
 # Namespaced storage
-# (Holds book state, accessories, dust counters, etc.)
+# (Holds book state, accessories, etc.)
 data modify storage soul:book state set value {}
 
-tellraw @a {"text":"[Soul Protocol] Initialized.","color":"dark_purple"}
+tellraw @a {"text":"[Protocol] Initialized.","color":"dark_purple"}
