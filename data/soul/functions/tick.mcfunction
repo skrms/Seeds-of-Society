@@ -14,3 +14,6 @@ execute store result score @a soul.time run time query daytime
 
 # Keep-inventory timer (if active)
 execute as @a[scores={book.keepinv_timer=1..}] at @s run function soul:rituals/toggle_keep_inventory
+
+# Check every tick for event status
+execute as @a run function soul:player_event_router
