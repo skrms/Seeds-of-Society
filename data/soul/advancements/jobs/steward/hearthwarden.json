@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:campfire"
+    },
+    "title": "Hearthwarden",
+    "description": "Around your fire, beasts and kin gather. You are keeper of the living bond.",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false,
+    "show_toast": true
+  }
+}

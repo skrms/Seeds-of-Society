@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ingot"
+    },
+    "title": "Apprentice Smith",
+    "description": "You\u2019ve learned the weight of the hammer, though sparks still sting your eyes.",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false,
+    "show_toast": true
+  }
+}

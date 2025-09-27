@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "title": "Anvilwright",
+    "description": "Steel sings at your touch. To repair or to ruin, your craft endures beyond rust.",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false,
+    "show_toast": true
+  }
+}

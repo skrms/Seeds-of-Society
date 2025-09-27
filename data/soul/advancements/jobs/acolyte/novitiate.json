@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": "Novitiate",
+    "description": "Your prayers sharpen like blades\u2014zombies fall quicker beneath your hand.",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false,
+    "show_toast": true
+  }
+}

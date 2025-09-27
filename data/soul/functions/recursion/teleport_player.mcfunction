@@ -26,11 +26,14 @@ effect give @s minecraft:darkness 3 0 true
 effect give @s minecraft:nausea 4 0 true
 effect give @s minecraft:slowness 4 1 true
 effect give @s minecraft:slow_falling 7 0 true
-
-# Optional: brief levitation pop for the “yoink” moment (kept small so it’s not lethal indoors)
 effect give @s minecraft:levitation 1 0 true
 
-# --- Destination logic ---
+# --- Destination logic (Anchor-first) ---
+
+# If an anchor exists, yank the player there (Overworld), else use spreadplayers
+execute if entity @e[type=marker,tag=soul_anchor,limit=1] run execute as @s at @e[type=marker,tag=soul_anchor,limit=1] in overworld run tp @s ~ ~2 ~
+execute unless entity @e[type=marker,tag=soul_anchor,limit=1] run execute in overworld run spreadplayers 0 0 16 64 false @s
+
 # Default: spread near world spawn (adjust center/range to taste).
 # This gives a safe-ish drop zone and avoids lava/void checks the easy way.
 # min=16 max=64 keeps it within a ring so it feels “nearby but shifted.”

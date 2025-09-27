@@ -17,3 +17,14 @@ execute as @a[scores={book.keepinv_timer=1..}] at @s run function soul:rituals/t
 
 # Check every tick for event status
 execute as @a run function soul:player_event_router
+
+# Run the rite when a player triggers it
+# At current the player can use "/trigger soul.rite_anchor" in chat to set the safety net
+execute as @a[scores={soul.rite_anchor=1..}] run function soul:recursion/anchor/rite_mark_anchor
+execute as @a[scores={soul.rite_anchor=1..}] run scoreboard players set @s soul.rite_anchor 0
+
+# Altar-based rite (optional replacement for trigger):
+execute as @a[nbt={Pose:{}}] if entity @s[nbt={SelectedItemOffhand:{id:"minecraft:echo_shard"}}] if block ~ ~-1 ~ minecraft:lodestone if block ~1 ~ ~ minecraft:candle[candles=1,lit=true] if block ~-1 ~ ~ minecraft:candle[candles=1,lit=true] if block ~ ~ ~1 minecraft:candle[candles=1,lit=true] if block ~ ~ ~-1 minecraft:candle[candles=1,lit=true] if entity @s[nbt={Pose:{}}] positioned ~ ~ ~ run function soul:recursion/anchor/rite_mark_anchor
+
+# Central event checker
+execute as @a run function soul:player_event_router
