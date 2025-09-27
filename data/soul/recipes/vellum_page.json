@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RF","FR","RF"],
+  "key": { "R": {"item": "minecraft:rotten_flesh"}, "F": {"item": "minecraft:paper"} },
+  "result": {"item": "minecraft:paper", "count": 1}
+}

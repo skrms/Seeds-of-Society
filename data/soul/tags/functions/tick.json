@@ -1,0 +1,7 @@
+{
+  "values": [
+    "soul:curse/tick",
+    "soul:rituals/keepinv_tick",
+    "soul:events/creation_tick"
+  ]
+}

@@ -1,0 +1,6 @@
+# If player is in Nether, yank them to nearest solid and cool them off
+execute in the_nether if entity @s run effect give @s minecraft:fire_resistance 10 0 true
+execute in the_nether if entity @s run spreadplayers 0 0 24 80 false @s
+execute in the_nether if entity @s run tp @s ~-1500 ~2 ~1000
+execute in the_nether if entity @s run playsound minecraft:block.basalt.break player @s ~ ~ ~ 1 0.8
+execute in the_nether if entity @s run particle minecraft:small_flame ~ ~1 ~ 0.8 0.6 0.8 0.02 120 force @s

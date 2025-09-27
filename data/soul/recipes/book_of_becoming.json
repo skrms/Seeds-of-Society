@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["PBP"],
+  "key": {
+    "P": {"item": "minecraft:amethyst_shard"},
+    "B": {"item": "minecraft:book"}
+  },
+  "result": {"item": "minecraft:book"}
+}
